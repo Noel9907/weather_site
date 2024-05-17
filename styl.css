@@ -1,0 +1,94 @@
+.container{
+    background-image: url(imagesw/back.webp);
+    background-size: contain;
+    background-size: 380px 700px;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    height: 700px;
+    width: 380px;
+    position: relative;
+    top: 10vh;
+    left: 40vw;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+}
+.search input{
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 20px;
+    opacity: .5;
+    position: relative;
+    left: 40px;
+}
+.search button{
+    opacity: 0.5;
+}
+button{
+    border-radius:100%;
+    width:25px ;
+    height: 25px;
+    border: transparent;
+    position: relative;
+    left: -44px;
+    top: 9px;
+}
+button:hover{
+    background-color: rgb(151, 236, 237);
+}
+input:hover{
+    background-color: rgb(151, 236, 237);
+}
+.mid{
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+.mid  img{
+    position: relative;
+    left: px;
+}
+.colm{
+    display: flex;
+    position: relative;
+    top: 250px;
+    justify-content: space-around;
+}
+.colm p{
+    color: white;
+    font-size: 20px;
+}
+.img1{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: -20px;
+    left: 10px;
+}
+.img2{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: -20px;
+    left: 10px;
+}
+.colm div span{
+    font-size: 15px;
+}
+.colm div p{
+    position: relative;
+    top: -50px;
+    left: -10px;
+}
+/* .new{
+    display: none;
+} */
+.temp{
+    color: rgb(153, 151, 151);
+}
+.city{
+    color: rgb(153, 151, 151);
+}
