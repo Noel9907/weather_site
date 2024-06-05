@@ -1,5 +1,9 @@
+body{
+    background-color: rgb(40, 40, 43) ;
+}
 .container{
     background-image: url(imagesw/back.webp);
+    border-radius: 20px;
     background-size: contain;
     background-size: 380px 700px;
     background-repeat: no-repeat;
